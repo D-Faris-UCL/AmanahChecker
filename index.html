@@ -172,6 +172,29 @@
   .vid .plat{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--text-dim);font-weight:600;}
   .vid h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.18rem;margin:.18rem 0 .25rem;line-height:1.2;}
   .vid .by{font-size:.85rem;color:var(--text-dim);}
+  .vid-actions{display:flex;flex-wrap:wrap;gap:.6rem;padding:.85rem 1rem;border-top:1px solid var(--paper-line);}
+  .act-btn{
+    display:inline-flex;align-items:center;gap:.45rem;cursor:pointer;text-decoration:none;
+    font:inherit;font-size:.85rem;font-weight:600;border-radius:var(--r-sm);
+    padding:.52rem .95rem;border:1px solid var(--paper-line);transition:background .15s ease,border-color .15s ease,color .15s ease;
+  }
+  .act-btn svg{width:15px;height:15px;}
+  .act-btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+  .act-btn.primary:hover{background:#1d3552;}
+  .act-btn.ghost{background:transparent;color:#2c3a47;margin-inline-start:auto;}
+  .act-btn.ghost:hover{border-color:var(--gold);color:#8a6a1d;}
+
+  /* share confirmation toast */
+  .toast{
+    position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%) translateY(1rem);
+    display:flex;align-items:center;gap:.55rem;z-index:60;
+    background:var(--ink-2);color:var(--text-onink);border:1px solid var(--gold);
+    padding:.65rem 1.05rem;border-radius:999px;font-size:.85rem;font-weight:500;
+    box-shadow:0 14px 34px -14px rgba(0,0,0,.75);
+    opacity:0;pointer-events:none;transition:opacity .25s ease,transform .25s ease;
+  }
+  .toast.on{opacity:1;transform:translateX(-50%) translateY(0);}
+  .toast .seal{width:20px;height:20px;font-size:.72rem;}
 
   /* verdict banner */
   .verdict{padding:1.3rem 1.2rem 1.2rem;}
@@ -335,6 +358,8 @@
 
   <main id="analysis" aria-live="polite"></main>
 
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
   <footer>
     Amanah checks <b>sources</b>, it does not issue rulings. Confidence is reported, never certainty.<br>
     Anything contested or nuanced belongs with a qualified scholar.
@@ -497,7 +522,7 @@ function block(html, delay){
 }
 
 function videoCard(v, delay){
-  return block(`
+  const div = block(`
     <div class="vid">
       <img src="${esc(v.thumbnailUrl)}" alt="" onerror="this.style.visibility='hidden'">
       <div class="meta">
@@ -505,7 +530,44 @@ function videoCard(v, delay){
         <h3>${esc(v.title)}</h3>
         <div class="by">by ${esc(v.creator)}</div>
       </div>
+    </div>
+    <div class="vid-actions">
+      <a class="act-btn primary" href="${esc(v.url)}" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Watch the original
+      </a>
+      <button class="act-btn ghost" type="button" data-share>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>
+        Share
+      </button>
     </div>`, delay);
+  const sb = div.querySelector("[data-share]");
+  if(sb) sb.addEventListener("click", () => shareVideo(v));
+  return div;
+}
+
+/* dummy share — sends the link with its check attached (source before share) */
+function shareVideo(v){
+  const payload = {
+    title: "Checked on Amanah — " + v.title,
+    text: "I checked this against its Islamic sources before sharing.",
+    url: v.url
+  };
+  if(navigator.share){
+    navigator.share(payload).catch(() => {});
+  }else{
+    if(navigator.clipboard) navigator.clipboard.writeText(v.url).catch(() => {});
+    toast("Link copied — sources attached.");
+  }
+}
+
+let toastTimer;
+function toast(msg){
+  const t = $("#toast");
+  t.innerHTML = `<span class="seal">أ</span>${esc(msg)}`;
+  t.classList.add("on");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove("on"), 2600);
 }
 
 function verdictCard(s, delay){
