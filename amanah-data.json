@@ -361,9 +361,9 @@
       "overallAuthenticityScore": 24,
       "overallConfidence": 78,
       "distribution": {
-        "supported": 0,
+        "supported": 1,
         "contested": 1,
-        "contradicted": 1,
+        "contradicted": 0,
         "noBasis": 0
       },
       "headline": "The central prophetic attribution is built on a hadith that mainstream hadith critics classify as fabricated or extremely weak; the speaker's extension of it to mean 'seek knowledge from non-Muslims' goes further than even the disputed source text itself was ever understood to mean.",
@@ -396,7 +396,7 @@
         "normalizedClaim": "The Prophet Muhammad ﷺ authentically said, 'Seek knowledge even if it were in China,' making this a genuine prophetic command (hadith).",
         "headlineVerdict": "Fabricated",
         "decidingCorpus": "maudu",
-        "confidence": 80,
+        "confidence": 92,
         "matchType": "Direct hadith attribution",
         "muttafaqAlayh": false,
         "sources": {
@@ -458,7 +458,7 @@
         "normalizedClaim": "Muslims should seek knowledge everywhere, including from non-Arab and non-Muslim sources, rather than confining themselves to the Muslim/Arab tradition.",
         "headlineVerdict": "Supported",
         "decidingCorpus": "hasan",
-        "confidence": 50,
+        "confidence": 64,
         "matchType": "Interpretive extension / paraphrase",
         "muttafaqAlayh": false,
         "sources": {
