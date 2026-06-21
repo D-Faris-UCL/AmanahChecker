@@ -407,8 +407,8 @@
               "narrator": "Anas ibn Malik",
               "excerpt": "Seeking knowledge is obligatory upon every Muslim.",
               "alignment": {
-                "entailment": 0.5,
-                "neutral": 0.48,
+                "entailment": 0.45,
+                "neutral": 0.53,
                 "contradiction": 0.02
               },
               "gradingNote": "Graded Sahih by al-Albani (Sahih Sunan Ibn Majah; also Sahih al-Jami' al-Saghir 3913-4) based on the cumulative weight of dozens of weak corroborating chains noted by al-Mizzi. Critically, this sahih grading covers ONLY this shorter wording — it does not extend to the separate, far weaker 'even if it were in China' clause that the video actually quotes."
