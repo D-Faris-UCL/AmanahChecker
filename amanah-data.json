@@ -1,0 +1,350 @@
+{
+  "https://youtube.com/shorts/ipeaOrMumGE?si=wkNUfcDEjpV2GQBP": {
+    "video": {
+      "title": "Allah’s Mercy Is Greater Than All Your Sins",
+      "platform": "YouTube Shorts",
+      "creator": "FreeQuranEducation",
+      "duration": "0:60",
+      "url": "https://youtube.com/shorts/ipeaOrMumGE?si=wkNUfcDEjpV2GQBP",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ipeaOrMumGE/hqdefault.jpg"
+    },
+    "summary": {
+      "overallVerdict": "Supported",
+      "overallAuthenticityScore": 92,
+      "overallConfidence": 95,
+      "distribution": {
+        "supported": 3,
+        "contested": 0,
+        "contradicted": 0,
+        "noBasis": 0
+      },
+      "headline": "All three claims trace to authentic Qur'anic and Hadith sources.",
+      "note": "This video relays three well-known Hadith Qudsi accurately. No weak or fabricated narrations were detected, and one claim is grounded directly in the Qur'an."
+    },
+    "stats": {
+      "checkedThisWeek": 450,
+      "checkedThisYear": 15200,
+      "firstSeen": "June 2026",
+      "sharedAfterCheck": 3200,
+      "trend": [100, 150, 200, 250, 300, 350, 400, 420, 430, 440, 445, 450]
+    },
+    "claims": [
+      {
+        "id": "c1",
+        "originalQuote": "Allah descends to the lowest heaven in the last third of the night and asks who is calling upon Him so He can answer.",
+        "normalizedClaim": "Allah descends to the lowest heaven during the last third of the night to answer the supplications of His servants.",
+        "headlineVerdict": "Supported",
+        "decidingCorpus": "sahih",
+        "confidence": 98,
+        "matchType": "Paraphrase match",
+        "muttafaqAlayh": true,
+        "sources": {
+          "quran": [],
+          "sahih": [
+            {
+              "reference": "Sahih al-Bukhari 1145",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Our Lord, the Blessed, the Superior, comes every night down on the nearest Heaven to us when the last third of the night remains...",
+              "alignment": { "entailment": 0.98, "neutral": 0.01, "contradiction": 0.01 },
+              "gradingNote": "Muttafaq 'Alayh (agreed upon)."
+            },
+            {
+              "reference": "Sahih Muslim 758",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Allah descends every night to the lowest heaven when one-third of the first part of the night is over...",
+              "alignment": { "entailment": 0.95, "neutral": 0.04, "contradiction": 0.01 },
+              "gradingNote": "Sahih."
+            },
+            {
+              "reference": "Sunan Abi Dawud 1315",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "The Lord Almighty descends to the lowest heaven when the last third of the night remains...",
+              "alignment": { "entailment": 0.85, "neutral": 0.14, "contradiction": 0.01 },
+              "gradingNote": "Sahih."
+            },
+            {
+              "reference": "Sunan an-Nasa'i 1031",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Allah, the Mighty and Sublime, descends to the lowest heaven...",
+              "alignment": { "entailment": 0.75, "neutral": 0.24, "contradiction": 0.01 },
+              "gradingNote": "Sahih."
+            }
+          ],
+          "hasan": [
+            {
+              "reference": "Jami at-Tirmidhi 3498",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Our Lord descends every night to the lowest heaven...",
+              "alignment": { "entailment": 0.90, "neutral": 0.09, "contradiction": 0.01 },
+              "gradingNote": "Hasan Sahih."
+            },
+            {
+              "reference": "Sunan Ibn Majah 1366",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Allah descends to the lowest heaven...",
+              "alignment": { "entailment": 0.65, "neutral": 0.33, "contradiction": 0.02 },
+              "gradingNote": "Hasan. Lower entailment as it focuses purely on the descent rather than the call/response."
+            }
+          ],
+          "maudu": []
+        }
+      },
+      {
+        "id": "c2",
+        "originalQuote": "Nothing can change your destiny or Qadar except your dua.",
+        "normalizedClaim": "Supplication (Dua) is the only thing that can alter the Divine Decree (Qadar).",
+        "headlineVerdict": "Supported",
+        "decidingCorpus": "hasan",
+        "confidence": 92,
+        "matchType": "Paraphrase match",
+        "muttafaqAlayh": false,
+        "sources": {
+          "quran": [],
+          "sahih": [],
+          "hasan": [
+            {
+              "reference": "Jami at-Tirmidhi 2139",
+              "narrator": "Salman al-Farsi",
+              "excerpt": "Nothing turns back the Decree except supplication, and nothing increases life span except righteousness.",
+              "alignment": { "entailment": 0.95, "neutral": 0.04, "contradiction": 0.01 },
+              "gradingNote": "Hasan (Darussalam)."
+            },
+            {
+              "reference": "Sunan Ibn Majah 90",
+              "narrator": "Salman",
+              "excerpt": "Nothing repels the decree except supplication...",
+              "alignment": { "entailment": 0.92, "neutral": 0.07, "contradiction": 0.01 },
+              "gradingNote": "Hasan (Darussalam)."
+            },
+            {
+              "reference": "Musnad Ahmad 22438",
+              "narrator": "Thawban",
+              "excerpt": "A man is deprived of provision because of a sin he commits. Nothing repels the decree except supplication...",
+              "alignment": { "entailment": 0.82, "neutral": 0.17, "contradiction": 0.01 },
+              "gradingNote": "Hasan lighairihi."
+            },
+            {
+              "reference": "Mustadrak al-Hakim 1814",
+              "narrator": "Aisha",
+              "excerpt": "Caution does not save from the decree, but supplication benefits against what has been decreed and what has not been decreed.",
+              "alignment": { "entailment": 0.70, "neutral": 0.28, "contradiction": 0.02 },
+              "gradingNote": "Graded Hasan by some scholars; corroborates the main claim indirectly."
+            },
+            {
+              "reference": "Jami at-Tirmidhi 3548",
+              "narrator": "Ibn Umar",
+              "excerpt": "Supplication is beneficial regarding things that have already happened and things that have not yet happened.",
+              "alignment": { "entailment": 0.60, "neutral": 0.38, "contradiction": 0.02 },
+              "gradingNote": "Hasan; provides partial entailment (60%) to the overarching concept of Dua actively affecting decree without using the explicit 'nothing changes' language."
+            }
+          ],
+          "maudu": []
+        }
+      },
+      {
+        "id": "c3",
+        "originalQuote": "Dua is the essence of worship.",
+        "normalizedClaim": "Supplication (Dua) is intrinsically linked to, or constitutes the core essence of, worship in Islam.",
+        "headlineVerdict": "Supported",
+        "decidingCorpus": "sahih",
+        "confidence": 95,
+        "matchType": "Direct scriptural basis",
+        "muttafaqAlayh": false,
+        "sources": {
+          "quran": [
+            {
+              "reference": "Qur'an 40:60 · Surah Ghafir",
+              "narrator": "Revelation",
+              "excerpt": "And your Lord says, 'Call upon Me; I will respond to you.' Indeed, those who disdain My worship will enter Hell [rendered] contemptible.",
+              "alignment": { "entailment": 0.80, "neutral": 0.19, "contradiction": 0.01 },
+              "gradingNote": "Definitive (qaṭ'ī). Establishes Dua as practically synonymous with worship."
+            }
+          ],
+          "sahih": [
+            {
+              "reference": "Sunan Abi Dawud 1479",
+              "narrator": "An-Nu'man ibn Bashir",
+              "excerpt": "The Prophet (peace be upon him) said: Supplication is worship.",
+              "alignment": { "entailment": 0.95, "neutral": 0.04, "contradiction": 0.01 },
+              "gradingNote": "Sahih (Al-Albani)."
+            },
+            {
+              "reference": "Jami at-Tirmidhi 3371",
+              "narrator": "An-Nu'man ibn Bashir",
+              "excerpt": "Supplication is worship. Then he recited: 'And your Lord says: Call upon Me, I will answer you.'",
+              "alignment": { "entailment": 0.92, "neutral": 0.07, "contradiction": 0.01 },
+              "gradingNote": "Sahih."
+            },
+            {
+              "reference": "Musnad Ahmad 18352",
+              "narrator": "An-Nu'man bin Bashir",
+              "excerpt": "The Messenger of Allah said, 'Indeed, supplication is worship.'",
+              "alignment": { "entailment": 0.88, "neutral": 0.11, "contradiction": 0.01 },
+              "gradingNote": "Sahih."
+            }
+          ],
+          "hasan": [
+            {
+              "reference": "Sunan Ibn Majah 3828",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "The Messenger of Allah said: 'There is nothing more honorable to Allah than supplication.'",
+              "alignment": { "entailment": 0.65, "neutral": 0.34, "contradiction": 0.01 },
+              "gradingNote": "Hasan (Darussalam). Provides partial entailment (65%) indicating the high overarching status of Dua in worship."
+            },
+            {
+              "reference": "Jami at-Tirmidhi 3372",
+              "narrator": "Anas bin Malik",
+              "excerpt": "Supplication is the essence of worship.",
+              "alignment": { "entailment": 0.98, "neutral": 0.01, "contradiction": 0.01 },
+              "gradingNote": "Often cited as the exact quote, though its specific chain is considered Da'if (weak) by some, it heavily entails the original quote contextually."
+            }
+          ],
+          "maudu": []
+        }
+      }
+    ]
+  },
+
+  "https://www.youtube.com/watch/ipeaOrMumGE": {
+    "video": {
+      "title": "We've all done this — a friend stops a gossip session before it starts",
+      "platform": "YouTube Shorts",
+      "creator": "Browniesaadi",
+      "duration": "0:25",
+      "url": "https://www.youtube.com/watch/ipeaOrMumGE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ipeaOrMumGE/hqdefault.jpg"
+    },
+    "summary": {
+      "overallVerdict": "Supported",
+      "overallAuthenticityScore": 91,
+      "overallConfidence": 89,
+      "distribution": { "supported": 3, "contested": 0, "contradicted": 0, "noBasis": 0 },
+      "headline": "All three claims align with established Qur'anic verses and authenticated Hadith on backbiting, talebearing, and the discord they cause.",
+      "note": "This skit accurately reflects mainstream Islamic teaching: gheebah (backbiting) and namimah (talebearing) are both classified as major sins, and namimah is repeatedly singled out — including in a hadith about punishment in the grave — as a cause of broken relationships and fitna. One nuance worth flagging: scholars recognize six narrow, necessity-based exceptions to the backbiting prohibition (e.g. reporting oppression to someone who can fix it, seeking a religious ruling). The video states the rule as an absolute, which is the common simplified framing but not the complete fiqh picture."
+    },
+    "stats": {
+      "checkedThisWeek": 612,
+      "checkedThisYear": 8930,
+      "firstSeen": "June 2026",
+      "sharedAfterCheck": 4115,
+      "trend": [140, 165, 190, 210, 260, 305, 340, 410, 470, 520, 580, 612]
+    },
+    "claims": [
+      {
+        "id": "c1",
+        "originalQuote": "You're about to commit a major sin in Islam. Gossiping... is actually a major sin.",
+        "normalizedClaim": "Speaking about someone behind their back in a way they would dislike (gheebah/backbiting) is treated as a major sin in Islam, even when the statement is factually true.",
+        "headlineVerdict": "Supported",
+        "decidingCorpus": "quran",
+        "confidence": 95,
+        "matchType": "Paraphrase match",
+        "muttafaqAlayh": false,
+        "sources": {
+          "quran": [
+            {
+              "reference": "Qur'an 49:12 · Surah al-Hujurat",
+              "narrator": "Revelation",
+              "excerpt": "And do not backbite one another. Would one of you like to eat the flesh of his dead brother? You would detest it.",
+              "alignment": { "entailment": 0.97, "neutral": 0.02, "contradiction": 0.01 },
+              "gradingNote": "Definitive (qaṭ'ī) — established Qur'anic text; the primary proof-text scholars cite when discussing gheebah."
+            },
+            {
+              "reference": "Qur'an 104:1 · Surah al-Humazah",
+              "narrator": "Revelation",
+              "excerpt": "Woe to every scorner and slanderer.",
+              "alignment": { "entailment": 0.78, "neutral": 0.18, "contradiction": 0.04 },
+              "gradingNote": "Definitive Qur'anic text, though 'humazah/lumazah' is a broader term for defamation by word and gesture, not gheebah specifically — Ibn Kathir links it to the same family of sins."
+            }
+          ],
+          "sahih": [
+            {
+              "reference": "Sahih Muslim 2589",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Do you know what backbiting is? ... It is to mention your brother in a way he dislikes. ... If what you say about him is true, you have backbitten him; if it is not true, you have slandered him.",
+              "alignment": { "entailment": 0.95, "neutral": 0.04, "contradiction": 0.01 },
+              "gradingNote": "Sahih, recorded by Muslim — the foundational hadith that defines gheebah."
+            },
+            {
+              "reference": "Sahih Muslim 2581 ('the bankrupt')",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "The real bankrupt of my Ummah is the one who comes on the Day of Resurrection with prayer, fasting, and charity, but comes having abused this one, slandered that one... so his good deeds are given away, and if they run out, the sins of those he wronged are loaded onto him.",
+              "alignment": { "entailment": 0.85, "neutral": 0.12, "contradiction": 0.03 },
+              "gradingNote": "Sahih; establishes the severity of backbiting via its cost on Judgment Day, supporting the 'major sin' classification rather than defining the act itself."
+            },
+            {
+              "reference": "Sahih al-Bukhari 6018 · Sahih Muslim 47",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Whoever believes in Allah and the Last Day, let him say good or remain silent.",
+              "alignment": { "entailment": 0.62, "neutral": 0.33, "contradiction": 0.05 },
+              "gradingNote": "Muttafaq 'Alayh; a general principle about guarding speech rather than a direct ruling on gheebah — supports but doesn't independently establish the claim."
+            }
+          ],
+          "hasan": [
+            {
+              "reference": "Riyad al-Salihin, Ch. 256 (Imam Nawawi, summarizing scholarly ijma')",
+              "narrator": "Scholarly consensus, not a hadith narration",
+              "excerpt": "Backbiting is permissible only for a legitimate Shari'ah purpose unattainable without it — six such purposes: reporting an injustice, seeking help to correct a wrong, requesting a religious ruling, warning Muslims of harm, naming an open sinner, and identification by a known trait.",
+              "alignment": { "entailment": 0.55, "neutral": 0.40, "contradiction": 0.05 },
+              "gradingNote": "Not a hadith itself but a near-unanimous fiqh ruling. It doesn't contradict the prohibition — it qualifies it. Included because the video states the rule as an unqualified blanket prohibition, which omits these recognized exceptions."
+            }
+          ],
+          "maudu": []
+        }
+      },
+      {
+        "id": "c2",
+        "originalQuote": "Telling people what others said about them to cause fitna is actually a major sin.",
+        "normalizedClaim": "Carrying tales between people, specifically repeating what one person said about another with the effect or intent of stirring conflict (namimah) major sin in Islam.",
+        "headlineVerdict": "Supported",
+        "decidingCorpus": "sahih",
+        "confidence": 97,
+        "matchType": "Paraphrase match",
+        "muttafaqAlayh": true,
+        "sources": {
+          "quran": [
+            {
+              "reference": "Qur'an 68:11 · Surah al-Qalam",
+              "narrator": "Revelation",
+              "excerpt": "A habitual faultfinder, going about with malicious gossip (namīm).",
+              "alignment": { "entailment": 0.88, "neutral": 0.10, "contradiction": 0.02 },
+              "gradingNote": "Definitive Qur'anic text naming namimah explicitly as a trait of a corrupt character."
+            }
+          ],
+          "sahih": [
+            {
+              "reference": "Sahih al-Bukhari 6056 · Sahih Muslim 105",
+              "narrator": "Hudhayfah ibn al-Yaman",
+              "excerpt": "The qattat (talebearer) will not enter Paradise.",
+              "alignment": { "entailment": 0.97, "neutral": 0.02, "contradiction": 0.01 },
+              "gradingNote": "Muttafaq 'Alayh — agreed upon by Bukhari and Muslim, the highest tier of authenticity. 'Qattat' is the classical term for someone who relays what was said in order to cause harm."
+            },
+            {
+              "reference": "Sahih al-Bukhari 216, 218, 1361 · Sahih Muslim 292",
+              "narrator": "Ibn Abbas",
+              "excerpt": "These two are being punished, but not for anything difficult to avoid. One of them did not guard himself from his urine; the other used to go about with namimah, to cause enmity between people.",
+              "alignment": { "entailment": 0.95, "neutral": 0.04, "contradiction": 0.01 },
+              "gradingNote": "Muttafaq 'Alayh; one of the two men punished in his grave is explicitly described as a talebearer who stirred enmity between friends — directly matches the video's description."
+            },
+            {
+              "reference": "Al-Adab al-Mufrad (al-Bukhari) 391/425",
+              "narrator": "Anas ibn Malik",
+              "excerpt": "...going about between people, spreading words to corrupt their relationships.",
+              "alignment": { "entailment": 0.84, "neutral": 0.13, "contradiction": 0.03 },
+              "gradingNote": "Graded Sahih by Al-Albani; from Bukhari's separate compilation on manners, slightly outside the two Sahihayn but still authenticated."
+            }
+          ],
+          "hasan": [
+            {
+              "reference": "Sahih al-Targhib wa't-Tarhib 2824 (compiled & graded by Al-Albani)",
+              "narrator": "Composite/corroborated chains",
+              "excerpt": "The worst of Allah's slaves are the talebearers, who cause separation between those who love each other and seek out faults for the blameless.",
+              "alignment": { "entailment": 0.83, "neutral": 0.15, "contradiction": 0.02 },
+              "gradingNote": "Hasan; graded by Al-Albani from multiple supporting chains. Closely matches the video's description of namimah as deliberately stirring conflict."
+            }
+          ],
+          "maudu": []
+        }
+      }
+    ]
+  }
+}
