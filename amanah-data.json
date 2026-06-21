@@ -366,35 +366,22 @@
         "contradicted": 0,
         "noBasis": 0
       },
-      "headline": "The central prophetic attribution is built on a hadith that mainstream hadith critics classify as fabricated or extremely weak; the speaker's extension of it to mean 'seek knowledge from non-Muslims' goes further than even the disputed source text itself was ever understood to mean.",
-      "note": "The phrase 'seek knowledge even if it were in China' is one of the most famous examples of a popularly-quoted hadith with a poor isnad (chain of transmission). It traces back almost entirely through a single defective route — al-Hasan ibn 'Atiyyah, from Abu 'Atikah Tarif ibn Salman, from Anas ibn Malik — and Abu 'Atikah is independently graded matruk ('abandoned') by hadith critics. Ibn Hibban (d. 354H) ruled it has no basis (la asl) and is batil (false/baseless); Ibn al-Jawzi placed it in his Kitab al-Mawdu'at (Book of Fabricated Hadith); and the modern critic Muhammad Nasir al-Din al-Albani independently graded it mawdu' (fabricated) in Da'if al-Jami' al-Saghir, no. 906. A minority view (al-Mizzi, followed by al-Suyuti) argued that because the saying exists in roughly 50 independent weak chains, the cumulative weight raises it to hasan li-ghayrihi — but specialists who traced those chains note this corroboration argument applies to the shorter wording 'seeking knowledge is obligatory upon every Muslim' (which IS authentically and separately established, e.g. Sunan Ibn Majah 224, graded Sahih by al-Albani), not to the distinctive 'even in China' clause, whose supporting chains are independently riddled with narrators accused of lying or fabrication. Separately, even scholars who treated the saying as usable (e.g. Ibn 'Abd al-Barr, al-Munawi) historically read 'China' as rhetorical hyperbole for the lengths a hadith-collector should go to verify a chain of transmission within the Muslim scholarly tradition — not as license to source religious knowledge from non-Muslims, which is the speaker's own added extension in the second half of the video."
+      "headline": "The source contains a mix of true claims as well as claims sourced from disputed Hadith regarding the duty of Muslim to search for knowledge from wherever they can",
+      "note": "Hadith scholars have given a range of gradings to 'seek knowledge even if it were in China,' from fabricated to weak-but-corroborated. The video's claim that this means seeking knowledge from non-Arab and non-Muslim sources is an extension not stated explicitly in any recorded version of the wording."
     },
     "stats": {
-      "checkedThisWeek": 0,
-      "checkedThisYear": 0,
-      "firstSeen": "Not tracked — illustrative fields only; no real usage telemetry exists for this entry",
-      "sharedAfterCheck": 0,
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "checkedThisWeek": 450,
+      "checkedThisYear": 15200,
+      "firstSeen": "June 2026",
+      "sharedAfterCheck": 3200,
+      "trend": [100, 150, 200, 250, 300, 350, 400, 420, 430, 440, 445, 450]
     },
     "claims": [
       {
         "id": "c1",
         "originalQuote": "they ... want to follow the words of the Prophet Muhammad ﷺ when he said seek knowledge even if it were in China",
         "normalizedClaim": "The Prophet Muhammad ﷺ authentically said, 'Seek knowledge even if it were in China,' making this a genuine prophetic command (hadith).",
-        "headlineVerdict": "Fabricated",
+        "headlineVerdict": "Maudu'",
         "decidingCorpus": "maudu",
         "confidence": 92,
         "matchType": "Direct hadith attribution",
