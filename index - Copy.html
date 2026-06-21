@@ -6,7 +6,7 @@
 <title>Amanah — source before share</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Sans:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
 <style>
   :root{
     --ink:#0C1726;          /* night / manuscript ink — page base */
@@ -232,125 +232,71 @@
   .stat-row .s b{font-family:"Fraunces",serif;font-weight:600;font-size:1.2rem;display:block;line-height:1.1;}
   .stat-row .s small{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-dim);}
 
-  /* shared forensic / mono labels for a scholarly apparatus feel */
-  .eyebrow,.plat,.cap,.score small,.feat-num small,.stat-row .s small{
-    font-family:"IBM Plex Mono",ui-monospace,monospace;
-  }
-  .lbl{
-    font-family:"IBM Plex Mono",ui-monospace,monospace;
-    font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;
-    color:var(--text-dim);font-weight:500;display:inline-block;
-  }
-
-  /* ---------- claims ---------- */
+  /* claims */
   .claims-head{
-    font-family:"IBM Plex Mono",ui-monospace,monospace;
-    font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
-    color:var(--text-onink-dim);font-weight:500;margin:2rem 0 .9rem;padding-inline:.2rem;
+    font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--text-onink-dim);font-weight:600;margin:1.8rem 0 .9rem;padding-inline:.2rem;
   }
   .claim{padding:0;}
-  .claim-body{padding:1.35rem 1.4rem 1.45rem;}
-  .claim-top{display:flex;align-items:center;gap:1rem;justify-content:space-between;margin-bottom:.6rem;}
-  .badge.sm{font-size:.76rem;padding:.3rem .68rem;}
-
-  .claim-quote{
-    font-family:"Spectral",Georgia,serif;font-style:normal;font-weight:500;
-    font-size:1.32rem;line-height:1.36;letter-spacing:-.003em;color:#16242F;margin:0;
+  .claim-hd{padding:1.1rem 1.2rem .9rem;border-bottom:1px solid var(--paper-line);}
+  .claim-n{font-size:.72rem;letter-spacing:.16em;color:var(--text-dim);font-weight:600;text-transform:uppercase;}
+  .quote{
+    font-family:"Spectral",Georgia,serif;font-style:italic;font-size:1.12rem;
+    line-height:1.4;margin:.5rem 0 .55rem;color:#1a2a39;position:relative;padding-inline-start:.9rem;
+    border-inline-start:3px solid var(--gold);
   }
-  .claim-checked{margin-top:1.2rem;}
-  .claim-norm{
-    font-family:"Spectral",Georgia,serif;font-style:normal;font-weight:400;
-    font-size:1.04rem;line-height:1.5;color:#46555F;margin:.4rem 0 0;
-  }
+  .normalized{font-size:.88rem;color:var(--text-dim);}
+  .normalized b{color:#3a4856;font-weight:600;}
+  .claim-tags{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin-top:.85rem;}
+  .tag{font-size:.74rem;border-radius:999px;padding:.28rem .68rem;font-weight:500;}
+  .tag.verdict{font-weight:600;}
+  .tag.muted{background:var(--paper-2);color:#4b5965;}
+  .tag.gold{background:#F3E7C6;color:#8a6a1d;font-weight:600;}
 
-  /* authentication hierarchy chain */
-  .chain-wrap{margin-top:1.45rem;}
-  .chain{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem;}
-  .node{
-    font-family:"IBM Plex Mono",ui-monospace,monospace;
-    font-size:.78rem;letter-spacing:.01em;font-weight:500;
-    padding:.4rem .8rem;border-radius:7px;border:1px solid var(--paper-line);
-    color:#828d97;background:var(--paper);white-space:nowrap;
-    display:inline-flex;align-items:center;gap:.42rem;
-  }
-  .node .pip{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:0;}
-  .node.has{color:#2c3a47;border-color:#C9BC95;}
-  .node.has .pip{opacity:.5;}
-  .node.deciding{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:600;}
-  .node.deciding .pip{background:var(--gold-soft);opacity:1;}
-  .node.flag{color:var(--contradicted);border-color:var(--contradicted);}
-  .node.flag .pip{opacity:1;}
-  .arr{color:#C2C8CE;font-size:.9rem;flex:none;}
-  .chain-note{font-size:.86rem;color:#56646E;margin:.75rem 0 0;}
-  .chain-note b{color:#22313f;font-weight:600;}
-
-  /* confidence graph */
-  .conf{margin-top:1.35rem;}
-  .conf-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:.45rem;}
-  .conf-pct{font-family:"Fraunces",serif;font-weight:600;font-size:1.3rem;line-height:1;color:#1a2a39;}
-  .conf-track{height:8px;border-radius:6px;background:var(--paper-2);overflow:hidden;}
-  .conf-fill{height:100%;border-radius:6px;}
-  .conf-scale{display:flex;justify-content:space-between;margin-top:.32rem;}
-  .conf-scale span{font-family:"IBM Plex Mono",monospace;font-size:.6rem;color:#aab4bd;letter-spacing:.05em;}
-
-  /* meta tags */
-  .claim-meta{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:1.2rem;}
-  .tag{
-    font-family:"IBM Plex Mono",ui-monospace,monospace;
-    font-size:.65rem;letter-spacing:.05em;border-radius:6px;padding:.32rem .6rem;
-    border:1px solid var(--paper-line);color:#56646E;background:var(--paper);text-transform:uppercase;
-  }
-  .tag.gold{border-color:#D8C385;color:#876818;background:#F6EDD2;font-weight:600;}
-
-  /* ---------- evidence / sources ---------- */
-  .evidence{border-top:1px solid var(--paper-line);background:#FBF8F1;}
-  .evidence-lbl{padding:1rem 1.4rem 0;}
-  .cascade{padding:.45rem 1.4rem 1.35rem;}
-  .tier{border:1px solid var(--paper-line);border-radius:var(--r-sm);margin-top:.7rem;overflow:hidden;background:var(--paper);}
-  .tier.empty{background:transparent;}
+  /* authority cascade */
+  .cascade{padding:.6rem 1.2rem 1.2rem;}
+  .tier{border:1px solid var(--paper-line);border-radius:var(--r-sm);margin-top:.7rem;overflow:hidden;}
+  .tier.empty{opacity:.6;}
   .tier.deciding{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold);}
-  .tier.flagged{border-color:var(--contradicted);box-shadow:0 0 0 1px var(--contradicted);}
-  .tier-hd{display:flex;align-items:center;gap:.6rem;padding:.6rem .9rem;border-bottom:1px solid var(--paper-line);}
-  .tier.empty .tier-hd{border-bottom:0;}
+  .tier-hd{
+    display:flex;align-items:center;gap:.55rem;padding:.6rem .85rem;
+    background:var(--paper-2);font-size:.82rem;
+  }
   .tier-rank{
-    font-family:"IBM Plex Mono",monospace;font-size:.66rem;color:#aab4bd;
-    width:1.7rem;flex:none;letter-spacing:.04em;
+    font-family:"Fraunces",serif;font-size:.8rem;color:var(--text-dim);
+    width:1.4rem;flex:none;
   }
-  .tier-name{font-family:"Spectral",serif;font-weight:600;font-size:1rem;color:#22313f;}
-  .tier-name .ar{font-weight:400;color:#8893a0;margin-inline-start:.4rem;font-size:.92em;}
+  .tier-name{font-weight:600;color:#2c3a47;}
+  .tier-name .ar{font-family:"Spectral",serif;color:var(--text-dim);font-weight:400;margin-inline-start:.3rem;font-size:.85em;}
   .tier-flag{
-    margin-inline-start:auto;font-family:"IBM Plex Mono",monospace;
-    font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;
-    color:var(--gold);font-weight:600;display:flex;align-items:center;gap:.4rem;
+    margin-inline-start:auto;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--gold);font-weight:700;display:flex;align-items:center;gap:.35rem;
   }
-  .tier-flag.bad{color:var(--contradicted);}
-  .tier-flag i{width:6px;height:6px;border-radius:50%;background:currentColor;font-style:normal;}
-  .tier-empty-msg{padding:.55rem .9rem;font-size:.86rem;color:#8893a0;font-style:italic;font-family:"Spectral",serif;}
+  .tier-flag i{width:7px;height:7px;border-radius:50%;background:var(--gold);font-style:normal;}
+  .tier-empty-msg{padding:.6rem .85rem;font-size:.82rem;color:var(--text-dim);}
   .tier-empty-msg.good{color:var(--supported);}
 
-  .source{padding:.85rem .9rem;border-top:1px solid var(--paper-line);}
+  .source{padding:.8rem .85rem;border-top:1px solid var(--paper-line);}
   .source:first-of-type{border-top:0;}
-  .src-top{display:flex;flex-wrap:wrap;gap:.3rem .55rem;align-items:baseline;}
-  .src-ref{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:.82rem;color:#1f2d3a;letter-spacing:.01em;}
-  .src-narr{font-size:.82rem;color:#8893a0;font-style:italic;font-family:"Spectral",serif;}
+  .src-top{display:flex;flex-wrap:wrap;gap:.3rem .6rem;align-items:baseline;}
+  .src-ref{font-weight:600;font-size:.9rem;color:#22313f;}
+  .src-narr{font-size:.78rem;color:var(--text-dim);}
   .excerpt{
-    font-family:"Spectral",Georgia,serif;font-style:italic;font-weight:400;
-    font-size:1.04rem;line-height:1.5;color:#2b3a47;margin:.5rem 0 .55rem;
-    padding-inline-start:.9rem;border-inline-start:2px solid var(--paper-line);
+    font-family:"Spectral",Georgia,serif;font-size:.98rem;line-height:1.45;
+    color:#2b3a47;margin:.45rem 0 .55rem;
   }
-  .grading{font-size:.82rem;color:#6a7782;}
-  .grading b{color:#46555f;font-weight:600;}
+  .grading{font-size:.78rem;color:#5a6772;}
   /* alignment bar */
-  .align{margin-top:.7rem;}
-  .align-bar{display:flex;height:6px;border-radius:4px;overflow:hidden;background:var(--paper-2);}
+  .align{margin-top:.6rem;}
+  .align-bar{display:flex;height:7px;border-radius:4px;overflow:hidden;background:var(--paper-2);}
   .align-bar i{display:block;height:100%;}
   .align-bar .ent{background:var(--supported);}
-  .align-bar .neu{background:#C2C8CE;}
+  .align-bar .neu{background:#B9C0C7;}
   .align-bar .con{background:var(--contradicted);}
-  .align-key{display:flex;gap:1.1rem;margin-top:.42rem;flex-wrap:wrap;font-family:"IBM Plex Mono",monospace;font-size:.64rem;color:#8893a0;letter-spacing:.02em;}
-  .align-key span{display:inline-flex;align-items:center;gap:.35rem;}
-  .align-key b{font-weight:600;color:#46555f;}
-  .align-key em{width:7px;height:7px;border-radius:2px;font-style:normal;}
+  .align-key{display:flex;gap:1rem;margin-top:.32rem;font-size:.7rem;color:var(--text-dim);flex-wrap:wrap;}
+  .align-key span{display:inline-flex;align-items:center;gap:.3rem;}
+  .align-key b{font-weight:600;color:#3a4856;}
+  .align-key em{width:8px;height:8px;border-radius:2px;font-style:normal;}
 
   /* disclaimer / empty / error */
   .scholar{
@@ -429,7 +375,7 @@
       </div>
       <h2>Checking the sources</h2>
       <div class="loader-step" id="loaderStep">Fetching the video…</div>
-      <div class="loader-sub">Qur'an · Sahih · Hasan · Maudu'</div>
+      <div class="loader-sub">Qur'an · Sahih · Hasan · Fabricated</div>
     </div>
   </div>
 
@@ -461,7 +407,7 @@ const TIERS = [
   { key:"quran", name:"Qur'an",     ar:"القرآن",  rank:"I"   },
   { key:"sahih", name:"Sahih",      ar:"صحيح",    rank:"II"  },
   { key:"hasan", name:"Hasan",      ar:"حسن",     rank:"III" },
-  { key:"maudu", name:"Maudu'",     ar:"موضوع",   rank:"IV"  }
+  { key:"maudu", name:"Fabricated", ar:"موضوع",   rank:"IV"  }
 ];
 
 /* ---------- load the external data ---------- */
@@ -695,69 +641,22 @@ function sparkline(trend){
 
 function claimCard(claim, idx, delay){
   const vs = verdictStyle(claim.headlineVerdict);
-  const conf = Math.max(0, Math.min(100, Number(claim.confidence) || 0));
-
-  /* horizontal authentication hierarchy chain */
-  const chain = TIERS.map((t, i) => {
-    const has = ((claim.sources && claim.sources[t.key]) || []).length > 0;
-    const cls = ["node"];
-    if(t.key === claim.decidingCorpus) cls.push("deciding");
-    else if(t.key === "maudu" && has)  cls.push("flag");
-    else if(has)                       cls.push("has");
-    const arrow = i < TIERS.length - 1 ? `<span class="arr">→</span>` : "";
-    return `<span class="${cls.join(" ")}"><span class="pip"></span>${esc(t.name)}</span>${arrow}`;
-  }).join("");
-
-  const meta = [];
-  if(claim.matchType)     meta.push(`<span class="tag">${esc(claim.matchType)}</span>`);
-  if(claim.muttafaqAlayh) meta.push(`<span class="tag gold">Muttafaq ʿalayh</span>`);
+  const tags = [];
+  tags.push(`<span class="tag verdict" style="color:var(${vs.c});background:var(${vs.bg})">${esc(claim.headlineVerdict)}</span>`);
+  tags.push(`<span class="tag muted">${claim.confidence}% confidence</span>`);
+  if(claim.matchType) tags.push(`<span class="tag muted">${esc(claim.matchType)}</span>`);
+  if(claim.muttafaqAlayh) tags.push(`<span class="tag gold">Muttafaq 'Alayh</span>`);
 
   const div = block(`
-    <div class="claim-body">
-      <div class="claim-top">
-        <span class="lbl">Claim ${idx+1} · in the video</span>
-        <span class="badge sm" style="color:var(${vs.c});background:var(${vs.bg})"><span class="dot"></span>${esc(claim.headlineVerdict)}</span>
-      </div>
-      <p class="claim-quote">${esc(claim.originalQuote)}</p>
-
-      <div class="claim-checked">
-        <span class="lbl">What we checked</span>
-        <p class="claim-norm">${esc(claim.normalizedClaim)}</p>
-      </div>
-
-      <div class="chain-wrap">
-        <div class="chain">${chain}</div>
-        <p class="chain-note">${decidingNote(claim)}</p>
-      </div>
-
-      <div class="conf">
-        <div class="conf-head"><span class="lbl">Confidence</span><span class="conf-pct">${conf}%</span></div>
-        <div class="conf-track"><div class="conf-fill" style="width:${conf}%;background:var(${vs.c})"></div></div>
-        <div class="conf-scale"><span>0</span><span>50</span><span>100</span></div>
-      </div>
-
-      ${meta.length ? `<div class="claim-meta">${meta.join("")}</div>` : ""}
+    <div class="claim-hd">
+      <div class="claim-n">Claim ${idx+1}</div>
+      <p class="quote">${esc(claim.originalQuote)}</p>
+      <p class="normalized"><b>Checked as:</b> ${esc(claim.normalizedClaim)}</p>
+      <div class="claim-tags">${tags.join("")}</div>
     </div>
-    <div class="evidence">
-      <div class="evidence-lbl"><span class="lbl">Sources examined</span></div>
-      <div class="cascade">${cascade(claim)}</div>
-    </div>`, delay);
+    <div class="cascade">${cascade(claim)}</div>`, delay);
   div.classList.add("claim");
   return div;
-}
-
-/* the one-line ruling under the chain, phrased by verdict */
-function decidingNote(claim){
-  const t = TIERS.find(t => t.key === claim.decidingCorpus);
-  const v = claim.headlineVerdict;
-  if(!t || v === "No basis found")
-    return "No matching source was found in any of the four corpora.";
-  const name = `the <b>${esc(t.name)}</b> corpus`;
-  if(v === "Contradicted")
-    return `Contradicted by ${name} — the most authoritative source found.`;
-  if(v === "Contested")
-    return `Weighed on ${name} — the most authoritative source found, though the evidence is mixed.`;
-  return `Decided on ${name} — the most authoritative source found.`;
 }
 
 /* the authority cascade — every tier shown, the deciding one marked */
@@ -765,21 +664,18 @@ function cascade(claim){
   return TIERS.map(tier => {
     const sources = (claim.sources && claim.sources[tier.key]) || [];
     const isDeciding = claim.decidingCorpus === tier.key;
-    const isFlag = tier.key === "maudu" && sources.length > 0;
     const cls = ["tier"];
     if(isDeciding) cls.push("deciding");
-    if(isFlag)     cls.push("flagged");
     if(!sources.length) cls.push("empty");
 
-    let flag = "";
-    if(isDeciding) flag = `<span class="tier-flag"><i></i>Deciding source</span>`;
-    else if(isFlag) flag = `<span class="tier-flag bad"><i></i>Maudu' match</span>`;
+    const flag = isDeciding
+      ? `<span class="tier-flag"><i></i>Deciding source</span>` : "";
 
     let body;
     if(sources.length){
       body = sources.map(sourceRow).join("");
     }else if(tier.key === "maudu"){
-      body = `<div class="tier-empty-msg good">✓ No maudu' (fabricated) narrations matched this claim.</div>`;
+      body = `<div class="tier-empty-msg good">✓ No fabricated narrations matched this claim.</div>`;
     }else{
       body = `<div class="tier-empty-msg">No matching passages in this corpus.</div>`;
     }
