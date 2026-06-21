@@ -346,5 +346,288 @@
         }
       }
     ]
+  },
+  "https://www.youtube.com/watch/P6lKRJD0n2A": {
+    "video": {
+      "title": "SEEK knowledge even in China",
+      "platform": "YouTube Shorts",
+      "creator": "Unverified — channel tags include #abaalsadiq, #imammahdi (could not independently confirm channel identity)",
+      "duration": "~0:50",
+      "url": "https://www.youtube.com/watch/P6lKRJD0n2A",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P6lKRJD0n2A/hqdefault.jpg"
+    },
+    "summary": {
+      "overallVerdict": "Contested",
+      "overallAuthenticityScore": 24,
+      "overallConfidence": 78,
+      "distribution": {
+        "supported": 0,
+        "contested": 1,
+        "contradicted": 1,
+        "noBasis": 0
+      },
+      "headline": "The central prophetic attribution is built on a hadith that mainstream hadith critics classify as fabricated or extremely weak; the speaker's extension of it to mean 'seek knowledge from non-Muslims' goes further than even the disputed source text itself was ever understood to mean.",
+      "note": "The phrase 'seek knowledge even if it were in China' is one of the most famous examples of a popularly-quoted hadith with a poor isnad (chain of transmission). It traces back almost entirely through a single defective route — al-Hasan ibn 'Atiyyah, from Abu 'Atikah Tarif ibn Salman, from Anas ibn Malik — and Abu 'Atikah is independently graded matruk ('abandoned') by hadith critics. Ibn Hibban (d. 354H) ruled it has no basis (la asl) and is batil (false/baseless); Ibn al-Jawzi placed it in his Kitab al-Mawdu'at (Book of Fabricated Hadith); and the modern critic Muhammad Nasir al-Din al-Albani independently graded it mawdu' (fabricated) in Da'if al-Jami' al-Saghir, no. 906. A minority view (al-Mizzi, followed by al-Suyuti) argued that because the saying exists in roughly 50 independent weak chains, the cumulative weight raises it to hasan li-ghayrihi — but specialists who traced those chains note this corroboration argument applies to the shorter wording 'seeking knowledge is obligatory upon every Muslim' (which IS authentically and separately established, e.g. Sunan Ibn Majah 224, graded Sahih by al-Albani), not to the distinctive 'even in China' clause, whose supporting chains are independently riddled with narrators accused of lying or fabrication. Separately, even scholars who treated the saying as usable (e.g. Ibn 'Abd al-Barr, al-Munawi) historically read 'China' as rhetorical hyperbole for the lengths a hadith-collector should go to verify a chain of transmission within the Muslim scholarly tradition — not as license to source religious knowledge from non-Muslims, which is the speaker's own added extension in the second half of the video."
+    },
+    "stats": {
+      "checkedThisWeek": 0,
+      "checkedThisYear": 0,
+      "firstSeen": "Not tracked — illustrative fields only; no real usage telemetry exists for this entry",
+      "sharedAfterCheck": 0,
+      "trend": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "claims": [
+      {
+        "id": "c1",
+        "originalQuote": "they ... want to follow the words of the Prophet Muhammad ﷺ when he said seek knowledge even if it were in China",
+        "normalizedClaim": "The Prophet Muhammad ﷺ authentically said, 'Seek knowledge even if it were in China,' making this a genuine prophetic command (hadith).",
+        "headlineVerdict": "Contradicted",
+        "decidingCorpus": "maudu",
+        "confidence": 80,
+        "matchType": "Direct hadith attribution",
+        "muttafaqAlayh": false,
+        "sources": {
+          "quran": [
+            {
+              "reference": "Qur'an 20:114 · Surah Ta-Ha",
+              "narrator": "Revelation",
+              "excerpt": "Say, 'My Lord, increase me in knowledge.'",
+              "alignment": {
+                "entailment": 0.4,
+                "neutral": 0.55,
+                "contradiction": 0.05
+              },
+              "gradingNote": "Definitive Qur'anic text establishing the general virtue of seeking knowledge. Provides background support for the spirit of the video but says nothing about China, distance, or non-Muslim sources, so it cannot independently support the specific prophetic attribution being made."
+            }
+          ],
+          "sahih": [
+            {
+              "reference": "Sunan Ibn Majah 224",
+              "narrator": "Anas ibn Malik",
+              "excerpt": "Seeking knowledge is obligatory upon every Muslim.",
+              "alignment": {
+                "entailment": 0.6,
+                "neutral": 0.38,
+                "contradiction": 0.02
+              },
+              "gradingNote": "Graded Sahih by al-Albani (Sahih Sunan Ibn Majah; also Sahih al-Jami' al-Saghir 3913-4) based on the cumulative weight of dozens of weak corroborating chains noted by al-Mizzi. Critically, this sahih grading covers ONLY this shorter wording — it does not extend to the separate, far weaker 'even if it were in China' clause that the video actually quotes."
+            },
+            {
+              "reference": "Sahih Muslim 2699a",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Whoever treads a path in search of knowledge, Allah would make that path easy, leading him to Paradise.",
+              "alignment": {
+                "entailment": 0.55,
+                "neutral": 0.42,
+                "contradiction": 0.03
+              },
+              "gradingNote": "Sahih (Muslim). Establishes the general religious virtue of seeking knowledge but contains no geographic specification and is a textually distinct hadith from the China narration."
+            },
+            {
+              "reference": "Sahih al-Bukhari 71 · Sahih Muslim 1037",
+              "narrator": "Mu'awiyah ibn Abi Sufyan",
+              "excerpt": "Whomever Allah wants good for, He grants him understanding of the religion.",
+              "alignment": {
+                "entailment": 0.35,
+                "neutral": 0.6,
+                "contradiction": 0.05
+              },
+              "gradingNote": "Muttafaq 'Alayh. Frames the praised 'knowledge' specifically as religious understanding (fiqh fi'l-din) — narrower and contextually different from the China hadith's open-ended phrasing. Offers indirect background only."
+            }
+          ],
+          "hasan": [
+            {
+              "reference": "Jami' at-Tirmidhi 2646",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Whoever takes a path upon which to obtain knowledge, Allah makes the path to Paradise easy for him.",
+              "alignment": {
+                "entailment": 0.55,
+                "neutral": 0.42,
+                "contradiction": 0.03
+              },
+              "gradingNote": "Graded Hasan by al-Tirmidhi himself. Parallel wording to Sahih Muslim 2699a; again, no China or distance reference."
+            },
+            {
+              "reference": "Al-Mizzi (cited in al-Sakhawi, al-Maqasid al-Hasana) / al-Suyuti, al-La'ali al-Masnu'ah 1:193",
+              "narrator": "Composite — corroborated across roughly 50 independently weak chains per al-Mizzi's count, via Anas ibn Malik, Ibn 'Umar, Ibn 'Abbas, Ibn Mas'ud, Jabir, and Abu Sa'id al-Khudri",
+              "excerpt": "Al-Mizzi and al-Suyuti argued that, taken collectively, the sheer number of independent weak chains raises the narration to hasan li-ghayrihi, rejecting Ibn al-Jawzi's fabrication ruling.",
+              "alignment": {
+                "entailment": 0.6,
+                "neutral": 0.35,
+                "contradiction": 0.05
+              },
+              "gradingNote": "This is the strongest minority case for treating the saying as usable, and it meets only a borderline 60% entailment threshold. Even sympathetic reviewers (e.g. the chain study summarized on livingislam.org/Shaykh G.F. Haddad) note nearly all of the supporting chains for the 'China' clause specifically pass through narrators independently flagged as liars or hadith-fabricators — so quantity does not offset quality for this particular wording, even though it does for the shorter 'obligatory upon every Muslim' phrase."
+            }
+          ],
+          "maudu": [
+            {
+              "reference": "Al-Bayhaqi, Shu'ab al-Iman; also al-Madkhal",
+              "narrator": "Anas ibn Malik (chain: al-Hasan ibn 'Atiyyah ← Abu 'Atikah Tarif ibn Salman ← Anas)",
+              "excerpt": "Seek knowledge even if it were in China, for seeking knowledge is an obligation upon every Muslim.",
+              "alignment": {
+                "entailment": 0.97,
+                "neutral": 0.02,
+                "contradiction": 0.01
+              },
+              "gradingNote": "This is the primary chain underlying the 'China' wording, and al-Bayhaqi himself flags it as weak. Abu 'Atikah Tarif ibn Salman, the key narrator, is graded matruk ('abandoned' — his hadith are discarded), and Ibn 'Adi separately called this chain munkar al-hadith."
+            },
+            {
+              "reference": "Al-Khatib al-Baghdadi, al-Rihlah fi Talab al-Hadith (opening chains, #1-3); Ibn 'Abd al-Barr, Jami' Bayan al-'Ilm wa Fadlih",
+              "narrator": "Anas ibn Malik (parallel weak chains)",
+              "excerpt": "Seek knowledge even if it were in China, for seeking knowledge is an obligation upon every Muslim.",
+              "alignment": {
+                "entailment": 0.95,
+                "neutral": 0.04,
+                "contradiction": 0.01
+              },
+              "gradingNote": "Graded da'if (weak) by Dr. Nur al-Din 'Itr in his critical study of al-Khatib's Rihlah. Ibn 'Abd al-Barr transmits the wording without vouching for its chain."
+            },
+            {
+              "reference": "Ibn al-Jawzi, Kitab al-Mawdu'at, vol. 1",
+              "narrator": "Anas ibn Malik (chain formally examined and rejected)",
+              "excerpt": "Seek knowledge even if it were in China.",
+              "alignment": {
+                "entailment": 0.93,
+                "neutral": 0.05,
+                "contradiction": 0.02
+              },
+              "gradingNote": "Ibn al-Jawzi formally classifies the 'China' narration as mawdu' (fabricated), following Ibn al-Qaysarani (d. 507H) — the first hadith critic on record to declare this specific wording forged, in his Ma'rifat al-Tadhkira, entry #118."
+            },
+            {
+              "reference": "Ibn Hibban, al-Majruhin (verdict preserved and discussed in later commentary literature, e.g. al-'Ajluni's Kashf al-Khafa)",
+              "narrator": "Critical assessment of the Anas ibn Malik chain",
+              "excerpt": "Ibn Hibban's ruling, in his own words as transmitted: there is no basis (la asl) for this wording through Ibn 'Umar, through Nafi', or through Malik ibn Anas — it is reported only via a single defective route through Anas, and it is batil.",
+              "alignment": {
+                "entailment": 0.85,
+                "neutral": 0.13,
+                "contradiction": 0.02
+              },
+              "gradingNote": "Ibn Hibban (d. 354H), a foundational early critic of hadith narrators, gives one of the harshest verdicts available: baseless and false, not merely weak."
+            },
+            {
+              "reference": "Al-Albani, Da'if al-Jami' al-Saghir, no. 906; also discussed in Silsilat al-Ahadith al-Da'ifah",
+              "narrator": "Verdict on the Anas ibn Malik narration",
+              "excerpt": "Al-Albani's recorded verdict on this specific entry: mawdu' (fabricated).",
+              "alignment": {
+                "entailment": 0.88,
+                "neutral": 0.1,
+                "contradiction": 0.02
+              },
+              "gradingNote": "The most widely-cited modern critical hadith scholar reaches the same fabrication conclusion as Ibn Hibban and Ibn al-Jawzi, while explicitly distinguishing the (fabricated) China clause from the (separately authentic) 'obligatory upon every Muslim' wording."
+            }
+          ]
+        }
+      },
+      {
+        "id": "c2",
+        "originalQuote": "that means like seek knowledge even outside of the Muslim sources outside of the Arab outside of the companions ... there's knowledge to be found in China ... and amongst the non-Arabs and perhaps even amongst the non-Muslims altogether",
+        "normalizedClaim": "The hadith 'seek knowledge even if it were in China' instructs Muslims to seek knowledge outside the Muslim and Arab tradition entirely, including from non-Muslim sources.",
+        "headlineVerdict": "Contested",
+        "decidingCorpus": "maudu",
+        "confidence": 50,
+        "matchType": "Interpretive extension / paraphrase",
+        "muttafaqAlayh": false,
+        "sources": {
+          "quran": [
+            {
+              "reference": "Qur'an 49:13 · Surah al-Hujurat",
+              "narrator": "Revelation",
+              "excerpt": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another.",
+              "alignment": {
+                "entailment": 0.4,
+                "neutral": 0.55,
+                "contradiction": 0.05
+              },
+              "gradingNote": "Definitive Qur'anic text on human diversity and mutual acquaintance, sometimes invoked in support of cross-cultural exchange. Its primary subject is human kinship rather than a ruling on where religious or worldly knowledge should be sourced from, so it offers only loose, indirect support."
+            }
+          ],
+          "sahih": [
+            {
+              "reference": "Sahih al-Bukhari 4485 · 7362 · 7542",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "Do not believe the People of the Book, nor disbelieve them, but say, 'We believe in Allah and whatever is revealed to us, and whatever is revealed to you.'",
+              "alignment": {
+                "entailment": 0.2,
+                "neutral": 0.45,
+                "contradiction": 0.35
+              },
+              "gradingNote": "Sahih al-Bukhari (recorded in several chapters from the same narration). Establishes a deliberately cautious, neither-accept-nor-reject posture toward religious material coming from outside the Muslim community — in real tension with a reading of the video's claim that implies non-Muslim sources can simply be approached on the same footing as Islamic ones for religious knowledge."
+            }
+          ],
+          "hasan": [
+            {
+              "reference": "Jami' at-Tirmidhi 2687",
+              "narrator": "Abu Hurayrah",
+              "excerpt": "The word of wisdom is the lost property of the believer; wherever he finds it, he is most deserving of it.",
+              "alignment": {
+                "entailment": 0.78,
+                "neutral": 0.18,
+                "contradiction": 0.04
+              },
+              "gradingNote": "Graded Hasan by al-Suyuti (al-Jami' al-Saghir), but assessed as da'if jiddan/munkar by Shaykh Shu'ayb al-Arna'ut, since the narrator Ibrahim ibn al-Fadl al-Makhzumi is graded matruk. Scholarly opinion is genuinely split between hasan (via corroborating routes) and very weak — this is the closest authentic-adjacent textual support for 'take wisdom from any source,' though it is itself a disputed narration, not a settled one."
+            },
+            {
+              "reference": "Nahj al-Balaghah, Saying 80 (attributed to 'Ali ibn Abi Talib)",
+              "narrator": "'Ali ibn Abi Talib (compiled without a formal isnad by al-Sharif al-Radi)",
+              "excerpt": "Wisdom is the lost property of the believer, so take wisdom even from the people of hypocrisy.",
+              "alignment": {
+                "entailment": 0.7,
+                "neutral": 0.25,
+                "contradiction": 0.05
+              },
+              "gradingNote": "Not a hadith of the Prophet ﷺ and not graded under the sahih/hasan/da'if isnad system the way Prophetic hadith are, since Nahj al-Balaghah sayings were compiled largely without chains. Included because it is the closest topical match to the video's specific claim — explicitly extending 'take wisdom' to outsiders — and is widely cited in Shi'a sources, which appears to match the apparent orientation of this channel."
+            }
+          ],
+          "maudu": [
+            {
+              "reference": "Al-Bayhaqi, Shu'ab al-Iman",
+              "narrator": "Anas ibn Malik (chain via the matruk narrator Abu 'Atikah Tarif ibn Salman)",
+              "excerpt": "Seek knowledge even if it were in China, for seeking knowledge is an obligation upon every Muslim.",
+              "alignment": {
+                "entailment": 0.55,
+                "neutral": 0.4,
+                "contradiction": 0.05
+              },
+              "gradingNote": "Even taken at face value, the wording only commands seeking knowledge over distance — it says nothing explicit about non-Muslim sources, Arab vs. non-Arab origin, or stepping outside the Muslim scholarly tradition. The video's extension is the speaker's own added interpretation, not present in the (weak) text itself."
+            },
+            {
+              "reference": "Ibn al-Jawzi, Kitab al-Mawdu'at, vol. 1",
+              "narrator": "Anas ibn Malik (chain rejected)",
+              "excerpt": "Seek knowledge even if it were in China.",
+              "alignment": {
+                "entailment": 0.45,
+                "neutral": 0.48,
+                "contradiction": 0.07
+              },
+              "gradingNote": "Classical commentators who discussed this saying at all (e.g. Ibn 'Abd al-Barr, al-Munawi in Fayd al-Qadir) historically read 'China' as rhetorical hyperbole for how far a hadith-collector should travel to verify chains of transmission within the broader Muslim scholarly world of the era — not as an instruction to source religious knowledge from non-Muslims, which China at that time was not understood to offer. This undercuts the specific 'even amongst the non-Muslims' extension made in the video."
+            },
+            {
+              "reference": "Al-Albani, Da'if al-Jami' al-Saghir, no. 906",
+              "narrator": "Verdict on the Anas ibn Malik narration",
+              "excerpt": "Al-Albani's recorded verdict: mawdu' (fabricated).",
+              "alignment": {
+                "entailment": 0.5,
+                "neutral": 0.45,
+                "contradiction": 0.05
+              },
+              "gradingNote": "Since the foundational wording itself is judged fabricated, any interpretive extension built on top of it — including the claim that it sanctions seeking knowledge from non-Muslims — inherits that same weak evidentiary foundation rather than standing on independent textual support."
+            }
+          ]
+        }
+      }
+    ]
   }
 }
