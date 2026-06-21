@@ -218,8 +218,8 @@
       "overallVerdict": "Supported",
       "overallAuthenticityScore": 91,
       "overallConfidence": 89,
-      "distribution": { "supported": 3, "contested": 0, "contradicted": 0, "noBasis": 0 },
-      "headline": "All three claims align with established Qur'anic verses and authenticated Hadith on backbiting, talebearing, and the discord they cause.",
+      "distribution": { "supported": 2, "contested": 0, "contradicted": 0, "noBasis": 0 },
+      "headline": "All two claims align with established Qur'anic verses and authenticated Hadith on backbiting, talebearing, and the discord they cause.",
       "note": "This skit accurately reflects mainstream Islamic teaching: gheebah (backbiting) and namimah (talebearing) are both classified as major sins, and namimah is repeatedly singled out — including in a hadith about punishment in the grave — as a cause of broken relationships and fitna. One nuance worth flagging: scholars recognize six narrow, necessity-based exceptions to the backbiting prohibition (e.g. reporting oppression to someone who can fix it, seeking a religious ruling). The video states the rule as an absolute, which is the common simplified framing but not the complete fiqh picture."
     },
     "stats": {
@@ -296,7 +296,7 @@
         "originalQuote": "Telling people what others said about them to cause fitna is actually a major sin.",
         "normalizedClaim": "Carrying tales between people, specifically repeating what one person said about another with the effect or intent of stirring conflict (namimah) major sin in Islam.",
         "headlineVerdict": "Supported",
-        "decidingCorpus": "sahih",
+        "decidingCorpus": "quran",
         "confidence": 97,
         "matchType": "Paraphrase match",
         "muttafaqAlayh": true,
